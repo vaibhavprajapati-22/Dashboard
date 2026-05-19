@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛰️ Trajectory Analysis Dashboard
 
 A modern, interactive Streamlit dashboard for comparing **Ground Truth** trajectories against **Kalman Filter** estimates, with accurate coordinate conversion, rich visualisations, and real-time metrics.
@@ -145,3 +146,6 @@ Accurate to < 0.1 % error for trajectories up to ~50 km.
 - **Change the reference point**: update `lat_ref` / `lon_ref` in `config.yaml`.
 - **Different colour scheme**: edit the palette constants at the top of `plotting.py`.
 - **More metrics**: add fields to `TrajectoryMetrics` in `metrics.py` and render cards in `app.py`.
+=======
+# Dashboard
+>>>>>>> d539a88231c5b39c9241277b2efe9ca857184516
