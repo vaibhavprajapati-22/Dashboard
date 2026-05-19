@@ -1,0 +1,484 @@
+reference:
+  lat_ref: 29.86377688198076
+  lon_ref: 77.89576894306614
+paths:
+  Circle Path:
+    velocity: 12.0
+    gt_file: data/path1_gt.csv
+    kf_variants:
+      KF Standard:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path1_kf_standard_incremental_node1.csv
+              Node 2: data/path1_kf_standard_incremental_node2.csv
+              Node 3: data/path1_kf_standard_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path1_kf_standard_consensus_node1.csv
+              Node 2: data/path1_kf_standard_consensus_node2.csv
+              Node 3: data/path1_kf_standard_consensus_node3.csv
+            combination: data/path1_kf_standard_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path1_kf_standard_adapt_then_combine_node1.csv
+              Node 2: data/path1_kf_standard_adapt_then_combine_node2.csv
+              Node 3: data/path1_kf_standard_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path1_kf_standard_combine_then_adapt_node1.csv
+              Node 2: data/path1_kf_standard_combine_then_adapt_node2.csv
+              Node 3: data/path1_kf_standard_combine_then_adapt_node3.csv
+      MCCCKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path1_kf_MCCCKF_incremental_node1.csv
+              Node 2: data/path1_kf_MCCCKF_incremental_node2.csv
+              Node 3: data/path1_kf_MCCCKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path1_kf_MCCCKF_consensus_node1.csv
+              Node 2: data/path1_kf_MCCCKF_consensus_node2.csv
+              Node 3: data/path1_kf_MCCCKF_consensus_node3.csv
+            combination: data/path1_kf_MCCCKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path1_kf_MCCCKF_adapt_then_combine_node1.csv
+              Node 2: data/path1_kf_MCCCKF_adapt_then_combine_node2.csv
+              Node 3: data/path1_kf_MCCCKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path1_kf_MCCCKF_combine_then_adapt_node1.csv
+              Node 2: data/path1_kf_MCCCKF_combine_then_adapt_node2.csv
+              Node 3: data/path1_kf_MCCCKF_combine_then_adapt_node3.csv
+      MEEKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path1_kf_MEEKF_incremental_node1.csv
+              Node 2: data/path1_kf_MEEKF_incremental_node2.csv
+              Node 3: data/path1_kf_MEEKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path1_kf_MEEKF_consensus_node1.csv
+              Node 2: data/path1_kf_MEEKF_consensus_node2.csv
+              Node 3: data/path1_kf_MEEKF_consensus_node3.csv
+            combination: data/path1_kf_MEEKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path1_kf_MEEKF_adapt_then_combine_node1.csv
+              Node 2: data/path1_kf_MEEKF_adapt_then_combine_node2.csv
+              Node 3: data/path1_kf_MEEKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path1_kf_MEEKF_combine_then_adapt_node1.csv
+              Node 2: data/path1_kf_MEEKF_combine_then_adapt_node2.csv
+              Node 3: data/path1_kf_MEEKF_combine_then_adapt_node3.csv
+      qRFKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path1_kf_qRFKF_incremental_node1.csv
+              Node 2: data/path1_kf_qRFKF_incremental_node2.csv
+              Node 3: data/path1_kf_qRFKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path1_kf_qRKF_consensus_node1.csv
+              Node 2: data/path1_kf_qRKF_consensus_node2.csv
+              Node 3: data/path1_kf_qRKF_consensus_node3.csv
+            combination: data/path1_kf_qRKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path1_kf_qRFKF_adapt_then_combine_node1.csv
+              Node 2: data/path1_kf_qRFKF_adapt_then_combine_node2.csv
+              Node 3: data/path1_kf_qRFKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path1_kf_qRFKF_combine_then_adapt_node1.csv
+              Node 2: data/path1_kf_qRFKF_combine_then_adapt_node2.csv
+              Node 3: data/path1_kf_qRFKF_combine_then_adapt_node3.csv
+  S Shaped Path:
+    velocity: 15.0
+    gt_file: data/path3_gt.csv
+    kf_variants:
+      KF Standard:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path3_kf_standard_incremental_node1.csv
+              Node 2: data/path3_kf_standard_incremental_node2.csv
+              Node 3: data/path3_kf_standard_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path3_kf_standard_consensus_node1.csv
+              Node 2: data/path3_kf_standard_consensus_node2.csv
+              Node 3: data/path3_kf_standard_consensus_node3.csv
+            combination: data/path3_kf_standard_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path3_kf_standard_adapt_then_combine_node1.csv
+              Node 2: data/path3_kf_standard_adapt_then_combine_node2.csv
+              Node 3: data/path3_kf_standard_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path3_kf_standard_combine_then_adapt_node1.csv
+              Node 2: data/path3_kf_standard_combine_then_adapt_node2.csv
+              Node 3: data/path3_kf_standard_combine_then_adapt_node3.csv
+      MCCCKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path3_kf_MCCCKF_incremental_node1.csv
+              Node 2: data/path3_kf_MCCCKF_incremental_node2.csv
+              Node 3: data/path3_kf_MCCCKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path3_kf_MCCCKF_consensus_node1.csv
+              Node 2: data/path3_kf_MCCCKF_consensus_node2.csv
+              Node 3: data/path3_kf_MCCCKF_consensus_node3.csv
+            combination: data/path3_kf_MCCCKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path3_kf_MCCCKF_adapt_then_combine_node1.csv
+              Node 2: data/path3_kf_MCCCKF_adapt_then_combine_node2.csv
+              Node 3: data/path3_kf_MCCCKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path3_kf_MCCCKF_combine_then_adapt_node1.csv
+              Node 2: data/path3_kf_MCCCKF_combine_then_adapt_node2.csv
+              Node 3: data/path3_kf_MCCCKF_combine_then_adapt_node3.csv
+      MEEKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path3_kf_MEEKF_incremental_node1.csv
+              Node 2: data/path3_kf_MEEKF_incremental_node2.csv
+              Node 3: data/path3_kf_MEEKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path3_kf_MEEKF_consensus_node1.csv
+              Node 2: data/path3_kf_MEEKF_consensus_node2.csv
+              Node 3: data/path3_kf_MEEKF_consensus_node3.csv
+            combination: data/path3_kf_MEEKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path3_kf_MEEKF_adapt_then_combine_node1.csv
+              Node 2: data/path3_kf_MEEKF_adapt_then_combine_node2.csv
+              Node 3: data/path3_kf_MEEKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path3_kf_MEEKF_combine_then_adapt_node1.csv
+              Node 2: data/path3_kf_MEEKF_combine_then_adapt_node2.csv
+              Node 3: data/path3_kf_MEEKF_combine_then_adapt_node3.csv
+      qRFKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path3_kf_qRFKF_incremental_node1.csv
+              Node 2: data/path3_kf_qRFKF_incremental_node2.csv
+              Node 3: data/path3_kf_qRFKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path3_kf_qRKF_consensus_node1.csv
+              Node 2: data/path3_kf_qRKF_consensus_node2.csv
+              Node 3: data/path3_kf_qRKF_consensus_node3.csv
+            combination: data/path3_kf_qRKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path3_kf_qRFKF_adapt_then_combine_node1.csv
+              Node 2: data/path3_kf_qRFKF_adapt_then_combine_node2.csv
+              Node 3: data/path3_kf_qRFKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path3_kf_qRFKF_combine_then_adapt_node1.csv
+              Node 2: data/path3_kf_qRFKF_combine_then_adapt_node2.csv
+              Node 3: data/path3_kf_qRFKF_combine_then_adapt_node3.csv
+  Figure-8 Path:
+    velocity: 16.0
+    gt_file: data/path2_gt.csv
+    kf_variants:
+      KF Standard:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path2_kf_standard_incremental_node1.csv
+              Node 2: data/path2_kf_standard_incremental_node2.csv
+              Node 3: data/path2_kf_standard_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path2_kf_standard_consensus_node1.csv
+              Node 2: data/path2_kf_standard_consensus_node2.csv
+              Node 3: data/path2_kf_standard_consensus_node3.csv
+            combination: data/path2_kf_standard_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path2_kf_standard_adapt_then_combine_node1.csv
+              Node 2: data/path2_kf_standard_adapt_then_combine_node2.csv
+              Node 3: data/path2_kf_standard_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path2_kf_standard_combine_then_adapt_node1.csv
+              Node 2: data/path2_kf_standard_combine_then_adapt_node2.csv
+              Node 3: data/path2_kf_standard_combine_then_adapt_node3.csv
+      MCCCKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path2_kf_MCCCKF_incremental_node1.csv
+              Node 2: data/path2_kf_MCCCKF_incremental_node2.csv
+              Node 3: data/path2_kf_MCCCKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path2_kf_MCCCKF_consensus_node1.csv
+              Node 2: data/path2_kf_MCCCKF_consensus_node2.csv
+              Node 3: data/path2_kf_MCCCKF_consensus_node3.csv
+            combination: data/path2_kf_MCCCKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path2_kf_MCCCKF_adapt_then_combine_node1.csv
+              Node 2: data/path2_kf_MCCCKF_adapt_then_combine_node2.csv
+              Node 3: data/path2_kf_MCCCKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path2_kf_MCCCKF_combine_then_adapt_node1.csv
+              Node 2: data/path2_kf_MCCCKF_combine_then_adapt_node2.csv
+              Node 3: data/path2_kf_MCCCKF_combine_then_adapt_node3.csv
+      MEEKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path2_kf_MEEKF_incremental_node1.csv
+              Node 2: data/path2_kf_MEEKF_incremental_node2.csv
+              Node 3: data/path2_kf_MEEKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path2_kf_MEEKF_consensus_node1.csv
+              Node 2: data/path2_kf_MEEKF_consensus_node2.csv
+              Node 3: data/path2_kf_MEEKF_consensus_node3.csv
+            combination: data/path2_kf_MEEKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path2_kf_MEEKF_adapt_then_combine_node1.csv
+              Node 2: data/path2_kf_MEEKF_adapt_then_combine_node2.csv
+              Node 3: data/path2_kf_MEEKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path2_kf_MEEKF_combine_then_adapt_node1.csv
+              Node 2: data/path2_kf_MEEKF_combine_then_adapt_node2.csv
+              Node 3: data/path2_kf_MEEKF_combine_then_adapt_node3.csv
+      qRFKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path2_kf_qRFKF_incremental_node1.csv
+              Node 2: data/path2_kf_qRFKF_incremental_node2.csv
+              Node 3: data/path2_kf_qRFKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path2_kf_qRKF_consensus_node1.csv
+              Node 2: data/path2_kf_qRKF_consensus_node2.csv
+              Node 3: data/path2_kf_qRKF_consensus_node3.csv
+            combination: data/path2_kf_qRKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path2_kf_qRFKF_adapt_then_combine_node1.csv
+              Node 2: data/path2_kf_qRFKF_adapt_then_combine_node2.csv
+              Node 3: data/path2_kf_qRFKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path2_kf_qRFKF_combine_then_adapt_node1.csv
+              Node 2: data/path2_kf_qRFKF_combine_then_adapt_node2.csv
+              Node 3: data/path2_kf_qRFKF_combine_then_adapt_node3.csv
+  Sharp Turn Path:
+    velocity: 17.0
+    gt_file: data/path4_gt.csv
+    kf_variants:
+      KF Standard:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path4_kf_standard_incremental_node1.csv
+              Node 2: data/path4_kf_standard_incremental_node2.csv
+              Node 3: data/path4_kf_standard_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path4_kf_standard_consensus_node1.csv
+              Node 2: data/path4_kf_standard_consensus_node2.csv
+              Node 3: data/path4_kf_standard_consensus_node3.csv
+            combination: data/path4_kf_standard_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path4_kf_standard_adapt_then_combine_node1.csv
+              Node 2: data/path4_kf_standard_adapt_then_combine_node2.csv
+              Node 3: data/path4_kf_standard_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path4_kf_standard_combine_then_adapt_node1.csv
+              Node 2: data/path4_kf_standard_combine_then_adapt_node2.csv
+              Node 3: data/path4_kf_standard_combine_then_adapt_node3.csv
+      MCCCKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path4_kf_MCCCKF_incremental_node1.csv
+              Node 2: data/path4_kf_MCCCKF_incremental_node2.csv
+              Node 3: data/path4_kf_MCCCKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path4_kf_MCCCKF_consensus_node1.csv
+              Node 2: data/path4_kf_MCCCKF_consensus_node2.csv
+              Node 3: data/path4_kf_MCCCKF_consensus_node3.csv
+            combination: data/path4_kf_MCCCKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path4_kf_MCCCKF_adapt_then_combine_node1.csv
+              Node 2: data/path4_kf_MCCCKF_adapt_then_combine_node2.csv
+              Node 3: data/path4_kf_MCCCKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path4_kf_MCCCKF_combine_then_adapt_node1.csv
+              Node 2: data/path4_kf_MCCCKF_combine_then_adapt_node2.csv
+              Node 3: data/path4_kf_MCCCKF_combine_then_adapt_node3.csv
+      MEEKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path4_kf_MEEKF_incremental_node1.csv
+              Node 2: data/path4_kf_MEEKF_incremental_node2.csv
+              Node 3: data/path4_kf_MEEKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path4_kf_MEEKF_consensus_node1.csv
+              Node 2: data/path4_kf_MEEKF_consensus_node2.csv
+              Node 3: data/path4_kf_MEEKF_consensus_node3.csv
+            combination: data/path4_kf_MEEKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path4_kf_MEEKF_adapt_then_combine_node1.csv
+              Node 2: data/path4_kf_MEEKF_adapt_then_combine_node2.csv
+              Node 3: data/path4_kf_MEEKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path4_kf_MEEKF_combine_then_adapt_node1.csv
+              Node 2: data/path4_kf_MEEKF_combine_then_adapt_node2.csv
+              Node 3: data/path4_kf_MEEKF_combine_then_adapt_node3.csv
+      qRFKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path4_kf_qRFKF_incremental_node1.csv
+              Node 2: data/path4_kf_qRFKF_incremental_node2.csv
+              Node 3: data/path4_kf_qRFKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path4_kf_qRKF_consensus_node1.csv
+              Node 2: data/path4_kf_qRKF_consensus_node2.csv
+              Node 3: data/path4_kf_qRKF_consensus_node3.csv
+            combination: data/path4_kf_qRKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path4_kf_qRFKF_adapt_then_combine_node1.csv
+              Node 2: data/path4_kf_qRFKF_adapt_then_combine_node2.csv
+              Node 3: data/path4_kf_qRFKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path4_kf_qRFKF_combine_then_adapt_node1.csv
+              Node 2: data/path4_kf_qRFKF_combine_then_adapt_node2.csv
+              Node 3: data/path4_kf_qRFKF_combine_then_adapt_node3.csv
+  High Speed Path:
+    velocity: 25.0
+    gt_file: data/path5_gt.csv
+    kf_variants:
+      KF Standard:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path5_kf_standard_incremental_node1.csv
+              Node 2: data/path5_kf_standard_incremental_node2.csv
+              Node 3: data/path5_kf_standard_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path5_kf_standard_consensus_node1.csv
+              Node 2: data/path5_kf_standard_consensus_node2.csv
+              Node 3: data/path5_kf_standard_consensus_node3.csv
+            combination: data/path5_kf_standard_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path5_kf_standard_adapt_then_combine_node1.csv
+              Node 2: data/path5_kf_standard_adapt_then_combine_node2.csv
+              Node 3: data/path5_kf_standard_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path5_kf_standard_combine_then_adapt_node1.csv
+              Node 2: data/path5_kf_standard_combine_then_adapt_node2.csv
+              Node 3: data/path5_kf_standard_combine_then_adapt_node3.csv
+      MCCCKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path5_kf_MCCCKF_incremental_node1.csv
+              Node 2: data/path5_kf_MCCCKF_incremental_node2.csv
+              Node 3: data/path5_kf_MCCCKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path5_kf_MCCCKF_consensus_node1.csv
+              Node 2: data/path5_kf_MCCCKF_consensus_node2.csv
+              Node 3: data/path5_kf_MCCCKF_consensus_node3.csv
+            combination: data/path5_kf_MCCCKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path5_kf_MCCCKF_adapt_then_combine_node1.csv
+              Node 2: data/path5_kf_MCCCKF_adapt_then_combine_node2.csv
+              Node 3: data/path5_kf_MCCCKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path5_kf_MCCCKF_combine_then_adapt_node1.csv
+              Node 2: data/path5_kf_MCCCKF_combine_then_adapt_node2.csv
+              Node 3: data/path5_kf_MCCCKF_combine_then_adapt_node3.csv
+      MEEKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path5_kf_MEEKF_incremental_node1.csv
+              Node 2: data/path5_kf_MEEKF_incremental_node2.csv
+              Node 3: data/path5_kf_MEEKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path5_kf_MEEKF_consensus_node1.csv
+              Node 2: data/path5_kf_MEEKF_consensus_node2.csv
+              Node 3: data/path5_kf_MEEKF_consensus_node3.csv
+            combination: data/path5_kf_MEEKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path5_kf_MEEKF_adapt_then_combine_node1.csv
+              Node 2: data/path5_kf_MEEKF_adapt_then_combine_node2.csv
+              Node 3: data/path5_kf_MEEKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path5_kf_MEEKF_combine_then_adapt_node1.csv
+              Node 2: data/path5_kf_MEEKF_combine_then_adapt_node2.csv
+              Node 3: data/path5_kf_MEEKF_combine_then_adapt_node3.csv
+      qRFKF:
+        strategies:
+          Incremental:
+            nodes:
+              Node 1: data/path5_kf_qRFKF_incremental_node1.csv
+              Node 2: data/path5_kf_qRFKF_incremental_node2.csv
+              Node 3: data/path5_kf_qRFKF_incremental_node3.csv
+          Consensus:
+            nodes:
+              Node 1: data/path5_kf_qRKF_consensus_node1.csv
+              Node 2: data/path5_kf_qRKF_consensus_node2.csv
+              Node 3: data/path5_kf_qRKF_consensus_node3.csv
+            combination: data/path5_kf_qRKF_consensus_combination.csv
+          Adapt Then Combine:
+            nodes:
+              Node 1: data/path5_kf_qRFKF_adapt_then_combine_node1.csv
+              Node 2: data/path5_kf_qRFKF_adapt_then_combine_node2.csv
+              Node 3: data/path5_kf_qRFKF_adapt_then_combine_node3.csv
+          Combine Then Adapt:
+            nodes:
+              Node 1: data/path5_kf_qRFKF_combine_then_adapt_node1.csv
+              Node 2: data/path5_kf_qRFKF_combine_then_adapt_node2.csv
+              Node 3: data/path5_kf_qRFKF_combine_then_adapt_node3.csv
