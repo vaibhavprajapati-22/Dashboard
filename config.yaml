@@ -468,10 +468,10 @@ paths:
               Node 3: data/path5_kf_qRFKF_incremental_node3.csv
           Consensus:
             nodes:
-              Node 1: data/path5_kf_qRKF_consensus_node1.csv
-              Node 2: data/path5_kf_qRKF_consensus_node2.csv
-              Node 3: data/path5_kf_qRKF_consensus_node3.csv
-            combination: data/path5_kf_qRKF_consensus_combination.csv
+              Node 1: data/path5_kf_qRFKF_consensus_node1.csv
+              Node 2: data/path5_kf_qRFKF_consensus_node2.csv
+              Node 3: data/path5_kf_qRFKF_consensus_node3.csv
+            combination: data/path5_kf_qRFKF_consensus_combination.csv
           Adapt Then Combine:
             nodes:
               Node 1: data/path5_kf_qRFKF_adapt_then_combine_node1.csv
